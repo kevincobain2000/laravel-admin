@@ -149,6 +149,6 @@ class Admin
      */
     public function user()
     {
-        return Auth::user();
+        return Auth::admin()->user();
     }
 }
